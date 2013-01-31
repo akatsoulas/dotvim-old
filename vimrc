@@ -411,6 +411,7 @@ EOF
 
 " Powerline - new version
 let g:Powerline_symbols = 'fancy'
+set guifont=~/.fonts/PowerlineSymbols-Powerline.otf
 
 " Taglist
 nmap <F8> :TagbarToggle<CR>
@@ -426,3 +427,9 @@ let g:syntastic_auto_loc_list=1
 
 " Gundo sectino
 nnoremap <F5> :GundoToggle<CR>
+
+" Mini Buffer Explorer
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1 
