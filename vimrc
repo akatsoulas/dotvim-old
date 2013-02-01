@@ -74,7 +74,8 @@ set tm=500
 " Enable syntax highlighting and validation
 syntax enable 
 filetype on
-filetype plugin indent on
+filetype plugin on
+filetype indent on
 
 try
     colorscheme desert
