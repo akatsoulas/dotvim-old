@@ -61,6 +61,3 @@
 [submodule "bundle/matchtag"]
 	path = bundle/matchtag
 	url = https://github.com/gregsexton/MatchTag.git
-[submodule "bundle/html"]
-	path = bundle/html
-	url = https://github.com/rkumar/html.vim.git
