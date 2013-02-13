@@ -64,3 +64,21 @@
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/jedi-vim"]
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/vim-conque"]
+	path = bundle/vim-conque
+	url = https://github.com/rygwdn/vim-conque.git
+[submodule "bundle/colour-sampler-pack"]
+	path = bundle/colour-sampler-pack
+	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
+[submodule "bundle/comments"]
+	path = bundle/comments
+	url = https://github.com/vim-scripts/comments.vim.git
+[submodule "bundle/closetag"]
+	path = bundle/closetag
+	url = https://github.com/docunext/closetag.vim.git
