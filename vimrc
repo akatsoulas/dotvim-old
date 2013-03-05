@@ -17,6 +17,13 @@ nmap <leader>w :w!<cr>
 " Fast closing
 nmap <leader>q :q!<cr>
 
+" Resizing
+" resize current buffer by +/- 5 
+nnoremap <D-left> :vertical resize -5<cr>
+nnoremap <D-down> :resize +5<cr>
+nnoremap <D-up> :resize -5<cr>
+nnoremap <D-right> :vertical resize +5<cr>
+
 
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
