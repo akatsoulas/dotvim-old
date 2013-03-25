@@ -7,27 +7,18 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/git"]
-	path = bundle/git
-	url = https://github.com/tpope/vim-git.git
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = https://github.com/sjl/gundo.vim.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "bundle/powerline-vim"]
-	path = bundle/powerline-vim
-	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/flake8"]
 	path = bundle/flake8
 	url = https://github.com/nvie/vim-flake8.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/minibufexpl"]
-	path = bundle/minibufexpl
-	url = https://github.com/fholgado/minibufexpl.vim.git
 [submodule "bundle/ropevim"]
 	path = bundle/ropevim
 	url = https://github.com/sontek/rope-vim.git
@@ -49,30 +40,18 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "bundle/tasklist"]
-	path = bundle/tasklist
-	url = https://github.com/vim-scripts/TaskList.vim.git
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-sparkup"]
-	path = bundle/vim-sparkup
-	url = https://github.com/tristen/vim-sparkup.git
 [submodule "bundle/matchtag"]
 	path = bundle/matchtag
 	url = https://github.com/gregsexton/MatchTag.git
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
-[submodule "bundle/jedi-vim"]
-	path = bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "bundle/vim-conque"]
-	path = bundle/vim-conque
-	url = https://github.com/rygwdn/vim-conque.git
 [submodule "bundle/colour-sampler-pack"]
 	path = bundle/colour-sampler-pack
 	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
@@ -82,3 +61,24 @@
 [submodule "bundle/closetag"]
 	path = bundle/closetag
 	url = https://github.com/docunext/closetag.vim.git
+[submodule "bundle/vim-autoclose"]
+	path = bundle/vim-autoclose
+	url = https://github.com/Townk/vim-autoclose.git
+[submodule "bundle/vim-color-picker"]
+	path = bundle/vim-color-picker
+	url = https://github.com/vim-scripts/VIM-Color-Picker.git
+[submodule "bundle/vim-jsbeautify"]
+	path = bundle/vim-jsbeautify
+	url = https://github.com/maksimr/vim-jsbeautify.git
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = https://github.com/tpope/vim-git.git
+[submodule "bundle/vim-mkdir"]
+	path = bundle/vim-mkdir
+	url = https://github.com/DataWraith/auto_mkdir.git
+[submodule "bundle/minibufexpl"]
+	path = bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/minibufferexplorer"]
+	path = bundle/minibufferexplorer
+	url = https://github.com/fholgado/minibufexpl.vim.git
