@@ -444,3 +444,9 @@ let g:miniBufExplModSelTarget = 1
 
 " Jinja2
 au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
+
+" Js beautify
+autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
+
+" Tasklist
+map <leader>v <Plug>TaskList
