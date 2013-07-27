@@ -7,6 +7,9 @@ syntax on
 set foldmethod=indent
 set foldlevel=99
 
+" Gundo sectino
+nnoremap <F5> :GundoToggle<CR>
+
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
 let mapleader = ","
@@ -84,12 +87,12 @@ filetype on
 filetype plugin on
 filetype indent on
 
+set background=dark
+
 try
-    colorscheme desert
+    colorscheme dante
 catch
 endtry
-
-set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -433,9 +436,6 @@ set statusline+=%*
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
 
-" Gundo sectino
-nnoremap <F5> :GundoToggle<CR>
-
 " Mini Buffer Explorer
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
@@ -450,3 +450,6 @@ autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 
 " Tasklist
 map <leader>v <Plug>TaskList
+
+" Set 256 color support
+set t_Co=256
