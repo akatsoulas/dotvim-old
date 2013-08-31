@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/p106r/work/remo/remo/api'
-let g:netrw_dirhist_2='/home/p106r/work/remo/remo/voting/templates'
-let g:netrw_dirhist_3='/home/p106r/.emacs.d'
-let g:netrw_dirhist_4='/home/p106r/work/remo/remo/remozilla/migrations'
-let g:netrw_dirhist_5='/home/p106r/.vim/bundle/colour-sampler-pack'
-let g:netrw_dirhist_6='/home/p106r/work/mozillians/apps/users'
-let g:netrw_dirhist_7='/home/p106r/work/remo/remo/profiles'
-let g:netrw_dirhist_8='/home/p106r/work/remo/remo/base/templates'
-let g:netrw_dirhist_9='/home/p106r/work/remo/vendor'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/p106r/work/remo/remo/profiles'
+let g:netrw_dirhist_2='/home/p106r/work/remo/remo/settings'
+let g:netrw_dirhist_3='/home/p106r/work/remo/remo/profiles/fixtures'

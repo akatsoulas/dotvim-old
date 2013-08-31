@@ -453,3 +453,6 @@ map <leader>v <Plug>TaskList
 
 " Set 256 color support
 set t_Co=256
+
+" ipdb autocompletion
+map <Leader>b Oimport ipdb; ipdb.set_trace()
