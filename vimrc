@@ -456,3 +456,13 @@ set t_Co=256
 
 " ipdb autocompletion
 map <Leader>b Oimport ipdb; ipdb.set_trace()
+
+" run jshint
+nmap <F4> :w<CR>:make<CR>:cw<CR>
+setlocal makeprg=jshint\ %
+setlocal errorformat=%-P%f,
+                    \%-G/*jslint\ %.%#*/,
+                    \%*[\ ]%n\ %l\\,%c:\ %m,
+                    \%-G\ \ \ \ %.%#,
+                    \%-GNo\ errors\ found.,
+                    \%-Q
