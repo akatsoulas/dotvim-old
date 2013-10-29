@@ -372,6 +372,10 @@ map <c-h> <c-w>h
 " Revision History
 map <leader>g :GundoToggle<CR>
 
+" ConqueTerm splits
+map <leader>vv :ConqueTermVSplit bash<CR>
+map <leader>- :ConqueTermSplit bash<CR>
+
 " Pyflakes
 let g:pyflakes_use_quickfix = 0
 
