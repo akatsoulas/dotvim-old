@@ -207,11 +207,11 @@ set viminfo^=%
 """"""""""""""""""""""""""""""
 " => Status line
 """"""""""""""""""""""""""""""
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+
 " Always show the status line
 set laststatus=2
-
-" Format the status line
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ \ Branch:\ \%{fugitive#statusline()}
+set t_Co=256
 
 
 
