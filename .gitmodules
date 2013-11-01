@@ -79,3 +79,9 @@
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/vim-command-t"]
+	path = bundle/vim-command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "bundle/vim-youCompleteMe"]
+	path = bundle/vim-youCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
