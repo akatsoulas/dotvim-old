@@ -1,9 +1,6 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = https://github.com/wincent/Command-T.git
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
@@ -76,18 +73,9 @@
 [submodule "bundle/vim-tasklist"]
 	path = bundle/vim-tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
-[submodule "bundle/vim-conqueshell"]
-	path = bundle/vim-conqueshell
-	url = https://github.com/rygwdn/vim-conque.git
-[submodule "bundle/powerline"]
-	path = bundle/powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
-[submodule "bundle/youCompleteMe"]
-	path = bundle/youCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
