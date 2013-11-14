@@ -21,7 +21,7 @@ nmap <leader>w :w!<cr>
 nmap <leader>q :q!<cr>
 
 " Resizing
-" resize current buffer by +/- 5 
+" resize current buffer by +/- 5
 nnoremap <D-left> :vertical resize -5<cr>
 nnoremap <D-down> :resize +5<cr>
 nnoremap <D-up> :resize -5<cr>
@@ -52,23 +52,23 @@ set whichwrap+=<,>,h,l
 " Ignore case when searching
 set ignorecase
 
-" When searching try to be smart about cases 
+" When searching try to be smart about cases
 set smartcase
 
 " Highlight search results
 set hlsearch
 
 " Makes search act like search in modern browsers
-set incsearch 
+set incsearch
 
 " Don't redraw while executing macros (good performance config)
-set lazyredraw 
+set lazyredraw
 
 " For regular expressions turn magic on
 set magic
 
 " Show matching brackets when text indicator is over them
-set showmatch 
+set showmatch
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
@@ -82,7 +82,7 @@ set tm=500
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting and validation
-syntax enable 
+syntax enable
 filetype on
 filetype plugin on
 filetype indent on
@@ -178,8 +178,8 @@ map <leader>ba :1,1000 bd!<cr>
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
-map <leader>tm :tabmove 
-map <leader>t<leader> :tabnext 
+map <leader>tm :tabmove
+map <leader>t<leader> :tabnext
 
 " Opens a new tab with the current buffer's path
 " Super useful when editing files in the same directory
@@ -188,7 +188,7 @@ map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
 " Switch CWD to the directory of the open buffer
 map <leader>cd :cd %:p:h<cr>:pwd<cr>
 
-" Specify the behavior when switching between buffers 
+" Specify the behavior when switching between buffers
 try
   set switchbuf=useopen,usetab,newtab
   set stal=2
@@ -241,6 +241,7 @@ func! DeleteTrailingWS()
   exe "normal `z"
 endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
+autocmd BufWrite *.html :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
 
@@ -310,7 +311,7 @@ function! CmdLine(str)
     exe "menu Foo.Bar :" . a:str
     emenu Foo.Bar
     unmenu Foo
-endfunction 
+endfunction
 
 function! VisualSelection(direction, extra_filter) range
     let l:saved_reg = @"
@@ -391,7 +392,7 @@ set completeopt=menuone,longest,preview
 "File Browser Nerd Tree
 map <leader>n :NERDTreeToggle<CR>
 
-" Refactoring ang go to 
+" Refactoring ang go to
 map <leader>j :RopeGotoDefinition<CR>
 map <leader>r :RopeRename<CR>
 
@@ -432,7 +433,7 @@ set guifont=~/.fonts/PowerlineSymbols-Powerline.otf
 nmap <F8> :TagbarToggle<CR>
 
 " Pyflakes
-let g:pyflakes_use_quickfix = 0 
+let g:pyflakes_use_quickfix = 0
 " Syntastic Section
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -444,7 +445,7 @@ let g:syntastic_auto_loc_list=1
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs=1
-let g:miniBufExplModSelTarget = 1 
+let g:miniBufExplModSelTarget = 1
 
 " Jinja2
 au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja

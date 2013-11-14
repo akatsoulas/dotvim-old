@@ -84,4 +84,5 @@
 	url = git://git.wincent.com/command-t.git
 [submodule "bundle/vim-youCompleteMe"]
 	path = bundle/vim-youCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
+    url = https://github.com/Valloric/YouCompleteMe.git
+    ignore = dirty
