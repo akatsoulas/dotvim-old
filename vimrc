@@ -471,3 +471,12 @@ setlocal errorformat=%-P%f,
                     \%-G\ \ \ \ %.%#,
                     \%-GNo\ errors\ found.,
                     \%-Q
+
+" python-mode
+""""""""""""""
+" Turn on the plugin
+let g:pymode = 1
+" Trim whitespace on save
+"let g:pymode_trim_whitespace = 1
+" Enable automatic virtualenv detection
+" let g:pymode_virtualenv = 1
